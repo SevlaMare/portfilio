@@ -65,12 +65,13 @@ nav {
 #about a:hover { text-decoration: underline red; }
 
 #avatar {
+  display: block;
   height: 250px;
   width: 266px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#info { margin-top: 60px; }
 
 /* PROJECTS */
 #projects h3 { text-align: center; }
@@ -129,6 +130,15 @@ footer a {
 @media (min-width: 963px) {
   .mr-15-x { margin-right: 15px; }
   .mt-15-x { margin-bottom: 15px; }
+
+  #avatar {
+    margin: 0;
+    float: left;
+  }
+
+  #info h3 {
+    padding-top: 20px;
+  }
 }
 
 @media (min-width: 1000px) {
